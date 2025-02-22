@@ -25,7 +25,7 @@ namespace WpfApp1.Views
         {
             dataGridUsers.Columns.Clear();
             dataGridUsers.Columns.Add(new DataGridTextColumn() { Header = "ID", Binding = new Binding("Id"), Width = 50 });
-            dataGridUsers.Columns.Add(new DataGridTextColumn() { Header = "UserName", Binding = new Binding("Username"), Width = 300 });
+            dataGridUsers.Columns.Add(new DataGridTextColumn() { Header = "UserName", Binding = new Binding("Username"), Width = 250 });
             dataGridUsers.Columns.Add(new DataGridTextColumn() { Header = "EMail", Binding = new Binding("Useremail"), Width = 300 });
         }
         private void ShowUsers()
